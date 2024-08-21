@@ -3,7 +3,7 @@
 **Overview**
 This Java program parses flow log data from a file and maps each row to a tag based on a lookup table provided in a CSV file. The program generates an output file containing the count of matches for each tag and for each port/protocol combination.
 
-**#Assumptions Made**
+**Assumptions Made**
 1. Log Format: The program only supports the default AWS VPC Flow Log format (version 2). Any custom formats are not supported.
 2. Protocol Handling: The protocol numbers are mapped as follows:
     6 → TCP
